@@ -65,6 +65,11 @@ let libro = [
         peso: "540 gr",
     },
 
+    {
+        titulo: "A traves de mi ventana",
+       
+    },
+
 
     
 ]
