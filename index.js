@@ -108,6 +108,29 @@ let libro = [
         peso: "424 gr",
     },
 
+    {
+        titulo: "A traves de la lluvia",
+        autor: "Ariana Godoy",
+        genero: "Romance adolescente",
+        idioma: "Castellano",
+        precio: "$ 59.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788418483196",
+        descripcion: "Apolo Hidalgo está emocionado por enfrentarse a una nueva etapa de su  vida: la  universidad. Su sueño es estudiar psicología y ayudar a los  demás. Sin embargo, esa ilusión se rompe cuando es atacado y golpeado en  un callejón durante una noche lluviosa e, irónicamente, así es como la conoce a ella. A Rain. La chica del paraguas lo salva, y se le queda grabada en la memoria.  Cuando finalmente se vuelven a encontrar, Apolo queda todavía más  prendado de Rain y, a traves de ella, conoce a Xan, el dueño de un cafe donde pasan el rato. A medida que los tres se conocen, Apolo se dará cuenta que Rain y Xan ocultan mucho más de lo que uno se puede imaginar. Apolo es un chico lleno de buenas intenciones, pero eso, en la vida, no es garantía de nada... especialmente en el amor. Ver menos",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "27/10/2022",
+        editorial: "Montena",
+        paginas: "288",
+        dimensiones: {
+            alto: "21.6 cm",
+            ancho: "15.2 cm",
+            grueso: "2 cm",
+        },
+        peso: "356 gr",
+    },
+
+
 
     
 ]
