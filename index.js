@@ -175,46 +175,29 @@ let libro = [
     },
 
     {
-        titulo: "Calcomania",
+        titulo: "Still with us",
         autor: "Lily del Pilar",
         genero: "Ficcion",
         idioma: "Castellano",
-        precio: "$ 29.900 col.",
-        formato: "eBook",
-        isbn: "9789566145127",
-        descripcion: "En el año 1978 están prohibidas muchas cosas. Ser gay es una de ellas. Liú Tian sabe que, si alguien descubre su secreto, terminará muerto. Pero eso no evita que se enamore de Xiao Zhen el hijo de un importante general del ejército.",
+        precio: "$ 62.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788408276395",
+        descripcion: "Tras recibir una llamada denunciando unos ruidos molestos, el oficial Lee Minki y su compañero de rondas, Jong Sungguk, acuden a inspeccionar un vecindario de clase media ubicado en la ciudad de Daegu, Corea del Sur. Una vez allí, no encuentran más que un rastro de sangre junto a un chico que no sabe explicar dónde se encuentra su pareja. Ha ocurrido un secuestro y todo parece apuntar a que Lee Minki podría ser el siguiente.",
         estado: "Nuevo",
         ubicacion: "Panamericana",
-        fecha_publicacion: "mayo de 2022",
-        editorial: "Crossbooks Chile",
-        paginas: "338",
+        fecha_publicacion: "20/09/2023",
+        editorial: "Crossbooks",
+        paginas: "368",
         dimensiones: {
-            alto: "23 cm",
-            ancho: "15 cm",
+            alto: "22.5 cm",
+            ancho: "14.5 cm",
             grueso: "2 cm",
         },
-        peso: "50 gr",
+        peso: "384 gr",
     },
 
-    {
-        titulo: "Decalcomania",
-        autor: "Lily del Pilar",
-        genero: "Ficcion",
-        idioma: "Castellano",
-        precio: "$ 65.000 col.",
-        formato: "eBook",
-        isbn: "9789566145288",
-        descripcion: "En el año 1979 muchas cosas están prohibidas. Ser gay sigue siendo una de ellas. A Liú Tian y a Xiao Zhen se les acaba el tiempo, por lo que deberán enfrentarse a la elección más difícil de todas: ¿la familia o ser su verdadero yo? ¿Qué escogerías tú?",
-        estado: "Nuevo",
-        ubicacion: "Panamericana",
-        fecha_publicacion: "noviembre de 2022",
-        editorial: "Crossbooks Chile",
-        paginas: "416",
-        dimensiones: {
-            alto: "23 cm",
-            ancho: "15 cm",
-            grueso: "2 cm",
-        },
-        peso: "50 gr",
-    },
+
+
+
+    
 ]
