@@ -72,6 +72,10 @@ let libro = [
         idioma: "Catellano",
         precio: "$ 62.000 col.",
         formato: "Tapa blanda",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "16/05/2019",
+        editorial: "Alfaguara",
+        paginas: "416",
        
     },
 
