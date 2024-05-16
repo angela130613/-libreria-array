@@ -283,5 +283,27 @@ let libro = [
         },
         peso: "50 gr",
     },
+
+    {
+        titulo: "El Huesped",
+        autor: "Romance Adolescente",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 62.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788418483363",
+        descripcion: "Tener un huesped en casa nunca había despertado tantas emociones y... pasiones. De hecho, la misma noche en que llegó le dije a mi madre que me  incomodaba su presencia, que no me inspiraba confianza. Y lo mismo con mi padre, pero ninguno de los dos me hizo ningún caso. ¿Que había venido a hacer aquel intruso a mi casa? Y lo peor de todo...  ¿por que me resultaba tan irresistiblemente atractivo?",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "08/04/2021",
+        editorial: "Montena",
+        paginas: "336",
+        dimensiones: {
+            alto: "21.5 cm",
+            ancho: "14.2 cm",
+            grueso: "2.1 cm",
+        },
+        peso: "432 gr",
+    },
     
 ]
