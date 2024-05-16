@@ -152,6 +152,28 @@ let libro = [
         peso: "562 gr",
     },
 
+    {
+        titulo: "Still with me",
+        autor: "Lily del Pilar",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 69.000 col.",
+        formato: "Tapa blanda",
+        isbn: "97884082639996",
+        descripcion: "El oficial Jong Sungguk jamás imaginó que, en una tarde de lluvia, encontraría a un chico llamado Moon Daehyun atrapado en el ático de una casa de clase media en la ciudad de Daegu, Corea del Sur. Todo parecía ir bien hasta que Daehyun desaparece de forma repentina. De él solo queda un rastro de sangre y una pregunta: ¿se puede extrañar a alguien que te hizo tanto daño?",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "05/10/2022",
+        editorial: "Crossbooks",
+        paginas: "368",
+        dimensiones: {
+            alto: "22.5 cm",
+            ancho: "14.5 cm",
+            grueso: "2.5 cm",
+        },
+        peso: "564 gr",
+    },
+
 
 
     
