@@ -196,8 +196,48 @@ let libro = [
         peso: "384 gr",
     },
 
-
-
-
+    {
+        titulo: "Calcomania",
+        autor: "Lily del Pilar",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 29.900 col.",
+        formato: "eBook",
+        isbn: "9789566145127",
+        descripcion: "En el año 1978 están prohibidas muchas cosas. Ser gay es una de ellas. Liú Tian sabe que, si alguien descubre su secreto, terminará muerto. Pero eso no evita que se enamore de Xiao Zhen el hijo de un importante general del ejército.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "mayo de 2022",
+        editorial: "Crossbooks Chile",
+        paginas: "338",
+        dimensiones: {
+            alto: "23 cm",
+            ancho: "15 cm",
+            grueso: "2 cm",
+        },
+        peso: "50 gr",
+    },
+    
+    {
+        titulo: "Decalcomania",
+        autor: "Lily del Pilar",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 65.000 col.",
+        formato: "eBook",
+        isbn: "9789566145288",
+        descripcion: "En el año 1979 muchas cosas están prohibidas. Ser gay sigue siendo una de ellas. A Liú Tian y a Xiao Zhen se les acaba el tiempo, por lo que deberán enfrentarse a la elección más difícil de todas: ¿la familia o ser su verdadero yo? ¿Qué escogerías tú?",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "noviembre de 2022",
+        editorial: "Crossbooks Chile",
+        paginas: "416",
+        dimensiones: {
+            alto: "23 cm",
+            ancho: "15 cm",
+            grueso: "2 cm",
+        },
+        peso: "50 gr",
+    },
     
 ]
