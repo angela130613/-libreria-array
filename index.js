@@ -66,6 +66,30 @@ let libro = [
     },
 
     {
+        titulo: "Ebano",
+        autor: "Mercesdes Ron",
+        genero: "Suspenso Romantico",
+        idioma: "Español España",
+        precio: "$ 64.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788417671723",
+        descripcion: "Marfil ya no es la misma. Todo lo que creía que era verdad ha demostrado ser una mentira más. Tambien Sebastian. Sus enemigos intentarán doblegarla, hacerla suya, la amenazarán con  acabar con todo aquello que Marfil ama... Ahora que está en peligro es  cuando más necesita que alguien le diga al oído que todo irá bien. Aunque sea otra mentira. Con Sebastian ocupando cada parte de su mente, pero dolida por su  traición, Marfil se obligará a sí misma a no sentir nada por el. Pero,  cuando los secretos empiezan a desvelarse, ni siquiera su ferrea voluntad conseguirá que lo odie tanto como ella desea.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "24/10/2019",
+        editorial: "Montena",
+        paginas: "448",
+        dimensiones: {
+            alto: "21.7 cm",
+            ancho: "15.4 cm",
+            grueso: "3 cm",
+        },
+        peso: "536 gr",
+    },
+
+    
+
+    {
         titulo: "A traves de mi ventana",
         autor: "Ariana Godoy",
         genero: "Romance adolescente",
