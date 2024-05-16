@@ -70,8 +70,8 @@ let libro = [
         autor: "Ariana Godoy",
         genero: "Romance adolescente",
         idioma: "Catellano",
-        precio: "",
-        formato: "",
+        precio: "$ 62.000 col.",
+        formato: "Tapa blanda",
        
     },
 
