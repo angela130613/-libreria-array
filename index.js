@@ -41,5 +41,7 @@ let libro = [
             grueso: "2.8 cm",
         },
         peso: "325 gr",
-    }
+    },
+
+    
 ]
