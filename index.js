@@ -33,7 +33,7 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "21 de septiembre de 2017",
-        editorial: "MONTENA",
+        editorial: "B de Bolsillo",
         paginas: "448",
         dimensiones: {
             alto: "19.1 cm",
