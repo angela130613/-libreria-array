@@ -305,5 +305,27 @@ let libro = [
         },
         peso: "432 gr",
     },
+
+    {
+        titulo: "Diario del Fin del Mundo",
+        autor: "Mario Mendoza",
+        genero: "Ficción apocalíptica",
+        idioma: "Castellano",
+        precio: "$ 55.000 col.",
+        formato: "Sin formato definido",
+        isbn: "9789584293152",
+        descripcion: "Dos amantes de Carmen Andreu nos hablan de su adicción a las drogas, de su estadía en una secta religiosa, de su nomadismo como fotógrafa de paisajes desérticos, de sus secretos trabajos como modelo de películas porno. Luego el lector es conducido a un pasado siniestro e infernal: torturas, genocidios, rituales de traslación de niveles de energía, macabros experimentos en medio de la guerra. Unas anotaciones apocalípticas en una libreta cierran esta novela que pretende descifrar nuestra época y anticipar el temible tiempo que se nos avecina.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "4/04/2018",
+        editorial: "Planeta",
+        paginas: "237",
+        dimensiones: {
+            alto: "23 cm",
+            ancho: "15 cm",
+            grueso: "2.1 cm",
+        },
+        peso: "50 gr",
+    },
     
 ]
