@@ -86,6 +86,28 @@ let libro = [
         peso: "515 gr",
     },
 
+    {
+        titulo: "A traves de ti",
+        autor: "Ariana Godoy",
+        genero: "Romance adolescente",
+        idioma: "Castellano",
+        precio: "$ 62.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788418483509",
+        descripcion: "Nada es tan fácil y simple en la vida de alguien como yo. ¿Que se siente al vivir con tres chicos tan guapos? Eres tan afortunada. Que envidia. Vivir con esas bellezas, que privilegio. ¿Cómo puedes vivir con ellos? ¿Te has tirado alguno? ¿Podrías conseguirme su número de telefono? Eso es solo un poco de lo que he tenido que lidiar desde que los chicos  Hidalgo crecieron y se convirtieron en el sueño húmedo de todas las  chicas de este lugar. Artemis, Ares y Apolo Hidalgo son los responsables  de muchos suspiros de chicas en las calles y con los que crecí aunque no  seamos familia. Muchas personas me creen afortunada, pero están tan  equivocados sobre mi vida, no saben mi historia, no todo es color de rosa en la vida de una chica como yo.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "23/09/2021",
+        editorial: "Montena",
+        paginas: "336",
+        dimensiones: {
+            alto: "21.5 cm",
+            ancho: "15.3 cm",
+            grueso: "2.3 cm",
+        },
+        peso: "424 gr",
+    },
+
 
     
 ]
