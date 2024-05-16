@@ -196,8 +196,25 @@ let libro = [
         peso: "50 gr",
     },
 
-
-
-
-    
+    {
+        titulo: "Decalcomania",
+        autor: "Lily del Pilar",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 65.000 col.",
+        formato: "eBook",
+        isbn: "9789566145288",
+        descripcion: "En el año 1979 muchas cosas están prohibidas. Ser gay sigue siendo una de ellas. A Liú Tian y a Xiao Zhen se les acaba el tiempo, por lo que deberán enfrentarse a la elección más difícil de todas: ¿la familia o ser su verdadero yo? ¿Qué escogerías tú?",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "noviembre de 2022",
+        editorial: "Crossbooks Chile",
+        paginas: "416",
+        dimensiones: {
+            alto: "23 cm",
+            ancho: "15 cm",
+            grueso: "2 cm",
+        },
+        peso: "50 gr",
+    },
 ]
