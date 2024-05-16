@@ -67,6 +67,7 @@ let libro = [
 
     {
         titulo: "A traves de mi ventana",
+        autor: "Mercedes Ron",
        
     },
 
