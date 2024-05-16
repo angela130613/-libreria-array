@@ -130,6 +130,28 @@ let libro = [
         peso: "356 gr",
     },
 
+    {
+        titulo: "Still with you",
+        autor: "Lily del Pilar",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 62.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788408254546",
+        descripcion: "El oficial Jong Sungguk pensó que esa tarde de lluvia sería como cualquier otra: más inspecciones de rutina en un vecindario de clase media de la ciudad de Daegu, Corea del Sur. Lo que nunca imaginó es que dentro de una casa aparentemente normal encontraría a una mujer muerta y a un chico, de nombre Moon Daehyun, encerrado en el ático. Y lo que menos podía esperar es que ese chico cambiaría su vida para siempre.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "02/03/2022",
+        editorial: "Crossbooks",
+        paginas: "368",
+        dimensiones: {
+            alto: "22.5 cm",
+            ancho: "14.5 cm",
+            grueso: "2.1 cm",
+        },
+        peso: "562 gr",
+    },
+
 
 
     
