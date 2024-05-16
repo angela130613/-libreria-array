@@ -87,7 +87,27 @@ let libro = [
         peso: "536 gr",
     },
 
-    
+    {
+        titulo: "Marfil",
+        autor: "Mercesdes Ron",
+        genero: "Suspenso Romantico",
+        idioma: "Español España",
+        precio: "$ 64.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788417671488",
+        descripcion: "Marfil tiene 20 años y vive en Nueva York, pero no todo es tan idílico  como parece: hace unos días fue secuestrada mientras paseaba por Central  Park. Su padre tiene muy claro que la razón del secuestro ha sido para mandarle un mensaje: podemos llegar a ella. A pesar de ser liberada, todo ha cambiado para Marfil: su vida no es la  misma, y ella tampoco. Sobre todo porque ahora nunca está sola: siempre la acompaña Sebastian Moore, su guardaespaldas. Sebastian demostrará ser el encargado perfecto para protegerla, sobre  todo cuando comienzan a llegar las amenazas de muerte, aunque nunca  hubiese pensado que la tarea más complicada no sería esa, sino mantener a Marfil Cortes alejada de el. ¿Está Marfil preparada para descubrir la verdad de su pasado? ¿Lo pondrá  todo en riesgo la atracción que ha surgido entre ambos?",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "23/05/2019",
+        editorial: "Montena",
+        paginas: "448",
+        dimensiones: {
+            alto: "21.5 cm",
+            ancho: "15.5 cm",
+            grueso: "3 cm",
+        },
+        peso: "545 gr",
+    },
 
     {
         titulo: "A traves de mi ventana",
