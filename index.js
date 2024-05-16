@@ -174,6 +174,29 @@ let libro = [
         peso: "564 gr",
     },
 
+    {
+        titulo: "Still with us",
+        autor: "Lily del Pilar",
+        genero: "Ficcion",
+        idioma: "Castellano",
+        precio: "$ 62.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788408276395",
+        descripcion: "Tras recibir una llamada denunciando unos ruidos molestos, el oficial Lee Minki y su compañero de rondas, Jong Sungguk, acuden a inspeccionar un vecindario de clase media ubicado en la ciudad de Daegu, Corea del Sur. Una vez allí, no encuentran más que un rastro de sangre junto a un chico que no sabe explicar dónde se encuentra su pareja. Ha ocurrido un secuestro y todo parece apuntar a que Lee Minki podría ser el siguiente.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "20/09/2023",
+        editorial: "Crossbooks",
+        paginas: "368",
+        dimensiones: {
+            alto: "22.5 cm",
+            ancho: "14.5 cm",
+            grueso: "2 cm",
+        },
+        peso: "384 gr",
+    },
+
+
 
 
     
