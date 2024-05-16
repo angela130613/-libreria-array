@@ -69,7 +69,7 @@ let libro = [
         titulo: "A traves de mi ventana",
         autor: "Ariana Godoy",
         genero: "Romance adolescente",
-        idioma: "",
+        idioma: "Catellano",
         precio: "",
         formato: "",
        
