@@ -393,5 +393,27 @@ let libro = [
         },
         peso: "151 gr",
     },
+
+    {
+        titulo: "El perfume del Rey",
+        autor: "Karine Bernal Lobo",
+        genero: "Ficción, Novela rosa, Fantasía romántica, Romance contemporáneo",
+        idioma: "Castellano",
+        precio: "$ 89.000 col.",
+        formato: "Tapa blanda",
+        isbn: "9788408275961",
+        descripcion: "Emily Malhore, hija de los perfumistas más famosos del reino de Mishnock, llevaba una vida tranquila entre las flores de su jardín, sus amigas y sus tutorías, por eso jamás imaginó que el príncipe Stefan se fijaría en ella, convirtiendola en el centro de atención de su pueblo y del enemigo. Emily no podrá escapar de un destino que la guiará hasta las entrañas de una monarquía injusta y al reino de Lacrontte, el hogar del hombre a quien desde pequeña le enseñaron a odiar y por quien su nación ha sufrido años de crueldad y mentiras. Atrapada en un juego de poder en el que parece ser una simple ficha intercambiable, Emily sobrepasará los límites de su carácter dócil, pondrá en duda su búsqueda por una vida pacífica e incluso cuestionará la lealtad de su corazón enamorado para descubrir quien es su verdadero adversario.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "05/07/2023",
+        editorial: "Crossbooks",
+        paginas: "608",
+        dimensiones: {
+            alto: "22.5 cm",
+            ancho: "14.5 cm",
+            grueso: "3.5 cm",
+        },
+        peso: "626 gr",
+    },
     
 ]
