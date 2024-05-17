@@ -465,3 +465,6 @@ function agregarLibroUsuario() {
 
     libros.push(libro);
 }
+ agregarLibroUsuario(libro)
+
+ console.log(libro);
