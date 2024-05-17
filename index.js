@@ -440,21 +440,28 @@ let libro = [
     
 ]
 
-function agregarlibro(libro){
-    let propiedad = prompt(" Ingrese el atributo o dje bacio para terminar")
-    let valor = prompt(" ingrese que valor va a tomar el atributo")
-    while (propiedad && valor) {
-        let objeto = {};
-        objeto[propiedad] = valor;
-        libro.push(objeto)
+function agregarLibroUsuario() {
+    let libro = {};
 
-        propiedad = prompt("ingrese el atributo o  deje bacio para terminar")
-        if (propiedad) {
-            valor = prompt(" Ingrese el atributo")
-        }
-    }
-    return libro;
+    libro.titulo = prompt("Ingresa el título del libro:");
+    libro.autor = prompt("Ingresa el autor del libro:");
+    libro.genero = prompt("Ingresa el género del libro:");
+    libro.idioma = prompt("Ingresa el idioma del libro:");
+    libro.precio = prompt("Ingresa el precio del libro:");
+    libro.formato = prompt("Ingresa el formato del libro:");
+    libro.isbn = prompt("Ingresa el ISBN del libro:");
+    libro.descripcion = prompt("Ingresa la descripción del libro:");
+    libro.estado = prompt("Ingresa el estado del libro:");
+    libro.ubicacion = prompt("Ingresa la ubicación del libro:");
+    libro.fecha_publicacion = prompt("Ingresa la fecha de publicación del libro:");
+    libro.editorial = prompt("Ingresa la editorial del libro:");
+    libro.paginas = prompt("Ingresa el número de páginas del libro:");
+    libro.dimensiones = {
+        alto: prompt("Ingresa el alto del libro:"),
+        ancho: prompt("Ingresa el ancho del libro:"),
+        grueso: prompt("Ingresa el grueso del libro:")
+    };
+    libro.peso = prompt("Ingresa el peso del libro:");
+
+    libros.push(libro);
 }
-
-libro = agregarlibro( libro );
-console.log(libro);
