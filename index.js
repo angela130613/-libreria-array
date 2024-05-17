@@ -371,5 +371,27 @@ let libro = [
         },
         peso: "302 gr",
     },
+
+    {
+        titulo: "Cronicas de una Muerte Anunciada",
+        autor: "Gabriel Garcia Marques",
+        genero: "Novela, Policial",
+        idioma: "Castellano",
+        precio: "$ 39.000 col.",
+        formato: "Tapa blanda bolsillo",
+        isbn: "9788497592437",
+        descripcion: "Gabriel García Márquez, pues se basa en un hecho histórico acontecido en la tierra natal del escritor. Cuando empieza la novela, ya se sabe que los hermanos Vicario van a matar a Santiago Nasar -de hecho, ya le han matado- para vengar el honor ultrajado de su hermana Çngela, pero el relato termina precisamente en el momento en que Santiago Nasar muere.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "1981",
+        editorial: " La Oveja Negra",
+        paginas: "144",
+        dimensiones: {
+            alto: "19 cm",
+            ancho: "12.5 cm",
+            grueso: "1.2 cm",
+        },
+        peso: "151 gr",
+    },
     
 ]
