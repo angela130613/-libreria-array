@@ -441,7 +441,7 @@ let libro = [
 ]
 
 function agregarLibroUsuario() {
-    let libro = {};
+    let libros = {};
 
     libro.titulo = prompt("Ingresa el título del libro:");
     libro.autor = prompt("Ingresa el autor del libro:");
@@ -463,7 +463,7 @@ function agregarLibroUsuario() {
     };
     libro.peso = prompt("Ingresa el peso del libro:");
 
-    libros.push(libro);
+    libro.push(libros);
 }
  agregarLibroUsuario(libro)
 
