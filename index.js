@@ -327,5 +327,27 @@ let libro = [
         },
         peso: "50 gr",
     },
+
+    {
+        titulo: "Diario de Ana Frank",
+        autor: "Ana Frank",
+        genero: " Biografía, Autobiografía, Literatura judía",
+        idioma: "Castellano",
+        precio: "$ 26.900 col.",
+        formato: "Tapa blanda",
+        isbn: "9788497593069",
+        descripcion: "Oculta con su familia y otra familia judía (los Van Daan), en una buhardilla de unos almacenes de Ámsterdam durante la ocupación nazi de Holanda.  Ana Frankcon trece años, cuenta en su diario, al que llamó «Kitty», la vida del grupo. Ayudados por varios empleados de la oficina, permanecieron durante más de dos años en el achterhuis (conocido como «el anexo secreto») hasta que, finalmente, fueron delatados y detenidos. Ana escribió un diario entre el 12 de junio de 1942 y el 1 de agosto de 1944. El 4 de agosto de 1944, unos vecinos (se desconocen los nombres) delatan a los ocho escondidos en la casa de atrás. Además del Diario escribió varios cuentos que han sido publicados paulatinamente desde 1960. Su hermana, Margot Frank también escribió un diario, pero nunca se encontró ningún rastro de éste.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "25 de junio de 1947",
+        editorial: "Debolsillo",
+        paginas: "384",
+        dimensiones: {
+            alto: "19.4 cm",
+            ancho: "12.6 cm",
+            grueso: "3.8 cm",
+        },
+        peso: "302 gr",
+    },
     
 ]
