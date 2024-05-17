@@ -329,6 +329,28 @@ let libro = [
     },
 
     {
+        titulo: "Satanas",
+        autor: "Mario Mendoza",
+        genero: " Novela, Ficción",
+        idioma: "Castellano",
+        precio: "$ 59.000 col.",
+        formato: "Tapa dura",
+        isbn: "9789584273543",
+        descripcion: "Campo Elías Delgado, el veterano de Vietnam que mató a casi una treintena de personas en diferentes lugares de Bogotá. La capital colombiana cobra vida y se vuelve protagonista del relato porque es el lúgubre escenario en el que el mal entreteje el destino del asesino con el de un sacerdote exorcista, un pintor que plasma sus extrañas visiones proféticas en sus cuadros y una ‘tomasera’, una mujer que utiliza sus encantos para seducir hombres en los bares, drogarlos y robarlos..",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "2002",
+        editorial: "Seix Barral",
+        paginas: "136",
+        dimensiones: {
+            alto: "28 cm",
+            ancho: "21 cm",
+            grueso: "2.1 cm",
+        },
+        peso: "50 gr",
+    },
+
+    {
         titulo: "Diario de Ana Frank",
         autor: "Ana Frank",
         genero: " Biografía, Autobiografía, Literatura judía",
