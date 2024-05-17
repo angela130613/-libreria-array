@@ -415,5 +415,27 @@ let libro = [
         },
         peso: "626 gr",
     },
+
+    {
+        titulo: "Las Cadenas del Rey",
+        autor: "Karine Bernal Lobo",
+        genero: "Ficción, Novela rosa, Fantasía romántica, Romance contemporáneo",
+        idioma: "Castellano",
+        precio: "$ 79.000 col.",
+        formato: "eBook",
+        isbn: "eBook",
+        descripcion: "El libro comienza donde termina el anterior: Emily cautiva en el palacio de Stefan Denavritz, su antiguo novio y nuevo monarca de Mishnock, y con un plan para recuperar su libertad. Sin embargo, el destino tiene otros planes para ella, y la convierte en una pieza importante para los acuerdos de paz entre naciones y el motivo que usará Magnus Lacrontte, su antiguo enemigo, para manipular al rey de Mishnock. Lo que no saben ni Emily ni Magnus es que el juego en el que se encuentran involucrados, cada cual por razones diferentes, los llevará a adentrarse en un descubrimiento sexual muy poderoso con resultados sorprendentes para ambos.",
+        estado: "Nuevo",
+        ubicacion: "Panamericana",
+        fecha_publicacion: "17 de abril de 2024",
+        editorial: "Planeta Colombia",
+        paginas: "614",
+        dimensiones: {
+            alto: "22.5 cm",
+            ancho: "14.5 cm",
+            grueso: "3.5 cm",
+        },
+        peso: "626 gr",
+    },
     
 ]
