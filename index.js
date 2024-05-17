@@ -439,3 +439,22 @@ let libro = [
     },
     
 ]
+
+function agregarlibro(libro){
+    let propiedad = prompt(" Ingrese el atributo o dje bacio para terminar")
+    let valor = prompt(" ingrese que valor va a tomar el atributo")
+    while (propiedad && valor) {
+        let objeto = {};
+        objeto[propiedad] = valor;
+        libro.push(objeto)
+
+        propiedad = prompt("ingrese el atributo o  deje bacio para terminar")
+        if (propiedad) {
+            valor = prompt(" Ingrese el atributo")
+        }
+    }
+    return libro;
+}
+
+libro = agregarlibro( libro );
+console.log(libro);
