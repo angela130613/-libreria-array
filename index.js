@@ -395,7 +395,7 @@ let libro = [
     },
 
     {
-        titulo: "El perfume del Rey",
+        titulo: "El Perfume del Rey",
         autor: "Karine Bernal Lobo",
         genero: "Ficción, Novela rosa, Fantasía romántica, Romance contemporáneo",
         idioma: "Castellano",
