@@ -465,6 +465,14 @@ function agregarLibroUsuario() {
 
     libro.push(libros);
 }
- agregarLibroUsuario(libro)
 
- console.log(libro);
+function eliminarUltimoLibro() {
+    if(libros.length > 0) {
+        libros.pop();
+        console.log("Último libro eliminado exitosamente.");
+    } else {
+        console.log("No hay libros en la lista para eliminar.");
+    }
+}
+
+
