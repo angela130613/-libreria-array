@@ -504,9 +504,8 @@ function mostrarLibros() {
 let msj
 msj = "opciones de edición para los libros\n\n";
 msj += "1. Agregar libro\n";
-msj += "2. Eliminar un libro por su nombre"
-msj += "3. Eliminar el último libro agregado\n"
-msj += "4. Mostrar lista de libros\n\n"
+msj += "2. Eliminar el último libro agregado\n"
+msj += "3. Mostrar lista de libros\n\n"
 msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 3"
  let codigo = parseInt(prompt(msj));
 switch (código) {
