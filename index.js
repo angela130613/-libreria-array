@@ -501,5 +501,28 @@ function mostrarLibros() {
     }
 }
 
+let msj
+msj = "opciones de edición para los libros\n\n";
+msj += "1. Agregar libro\n";
+msj += "2. Eliminar el último libro agregado\n"
+msj += "3. Mostrar lista de libros\n\n"
+msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 3"
+codigo = parseInt(prompt(mjs));
+switch (código) {
+  case 1:
+    agregarLibro();
+    break;
+  case 2:
+    eliminarUltimoLibro();
+    break;
+  case 3:
+    mostrarLibro();
+    break;
+  default:
+    document.write(" el código que ingresó no es válido" )
+}
+
+
+
 
 
