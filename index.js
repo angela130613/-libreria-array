@@ -475,4 +475,31 @@ function eliminarUltimoLibro() {
     }
 }
 
+function mostrarLibros() {
+    if(libro.length > 0) {
+        for(let i = 0; i < libro.length; i++) {
+            console.log(`Libro ${i+1}:`);
+            console.log(`Título: ${libro[i].titulo}`);
+            console.log(`Autor: ${libro[i].autor}`);
+            console.log(`Género: ${libro[i].genero}`);
+            console.log(`Idioma: ${libro[i].idioma}`);
+            console.log(`Precio: ${libro[i].precio}`);
+            console.log(`Formato: ${libro[i].formato}`);
+            console.log(`ISBN: ${libro[i].isbn}`);
+            console.log(`Descripción: ${libro[i].descripcion}`);
+            console.log(`Estado: ${libro[i].estado}`);
+            console.log(`Ubicación: ${libro[i].ubicacion}`);
+            console.log(`Fecha de publicación: ${libro[i].fecha_publicacion}`);
+            console.log(`Editorial: ${libro[i].editorial}`);
+            console.log(`Páginas: ${libro[i].paginas}`);
+            console.log(`Dimensiones: Alto - ${libro[i].dimensiones.alto}, Ancho - ${libro[i].dimensiones.ancho}, Grueso - ${libro[i].dimensiones.grueso}`);
+            console.log(`Peso: ${libro[i].peso}`);
+            console.log("\n");
+        }
+    } else {
+        console.log("No hay libros en la lista para mostrar.");
+    }
+}
+
+
 
