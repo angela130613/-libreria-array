@@ -12,7 +12,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "08/06/2017",
         editorial: "MONTENA",
-        paginas: "448",
+        paginas: 448,
         dimensiones: {
             alto: "21.5 cm",
             ancho: "15.2 cm",
@@ -33,8 +33,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "21/09/2017",
-        editorial: "B de Bolsillo",
-        paginas: "448",
+        editorial: "MONTENA",
+        paginas: 448,
         dimensiones: {
             alto: "19.1 cm",
             ancho: "13 cm",
@@ -56,7 +56,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "01/02/2018",
         editorial: "Montena",
-        paginas: "448",
+        paginas: 448,
         dimensiones: {
             alto: "21.5 cm",
             ancho: "15.4 cm",
@@ -78,7 +78,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "24/10/2019",
         editorial: "Montena",
-        paginas: "448",
+        paginas: 448,
         dimensiones: {
             alto: "21.7 cm",
             ancho: "15.4 cm",
@@ -100,7 +100,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "23/05/2019",
         editorial: "Montena",
-        paginas: "448",
+        paginas: 448,
         dimensiones: {
             alto: "21.5 cm",
             ancho: "15.5 cm",
@@ -121,7 +121,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "16/05/2019",
         editorial: "Alfaguara",
-        paginas: "416",
+        paginas: 416,
         dimensiones: {
             alto: "21.6 cm",
             ancho: "15.2 cm",
@@ -142,8 +142,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "23/09/2021",
-        editorial: "Montena",
-        paginas: "336",
+        editorial: "Alfaguara",
+        paginas: 336,
         dimensiones: {
             alto: "21.5 cm",
             ancho: "15.3 cm",
@@ -164,8 +164,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "27/10/2022",
-        editorial: "Montena",
-        paginas: "288",
+        editorial: "Alfaguara",
+        paginas: 288,
         dimensiones: {
             alto: "21.6 cm",
             ancho: "15.2 cm",
@@ -186,8 +186,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "02/03/2022",
-        editorial: "Crossbooks",
-        paginas: "368",
+        editorial: "Alfaguara",
+        paginas: 368,
         dimensiones: {
             alto: "22.5 cm",
             ancho: "14.5 cm",
@@ -208,8 +208,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "05/10/2022",
-        editorial: "Crossbooks",
-        paginas: "368",
+        editorial: "Alfaguara",
+        paginas: 368,
         dimensiones: {
             alto: "22.5 cm",
             ancho: "14.5 cm",
@@ -231,7 +231,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "20/09/2023",
         editorial: "Crossbooks",
-        paginas: "368",
+        paginas: 368,
         dimensiones: {
             alto: "22.5 cm",
             ancho: "14.5 cm",
@@ -253,7 +253,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "mayo de 2022",
         editorial: "Crossbooks Chile",
-        paginas: "338",
+        paginas: 338,
         dimensiones: {
             alto: "23 cm",
             ancho: "15 cm",
@@ -275,7 +275,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "noviembre de 2022",
         editorial: "Crossbooks Chile",
-        paginas: "416",
+        paginas: 416,
         dimensiones: {
             alto: "23 cm",
             ancho: "15 cm",
@@ -296,8 +296,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "08/04/2021",
-        editorial: "Montena",
-        paginas: "336",
+        editorial: "Crossbooks",
+        paginas: 336,
         dimensiones: {
             alto: "21.5 cm",
             ancho: "14.2 cm",
@@ -318,8 +318,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "4/04/2018",
-        editorial: "Planeta",
-        paginas: "237",
+        editorial: "Crossbooks",
+        paginas: 237,
         dimensiones: {
             alto: "23 cm",
             ancho: "15 cm",
@@ -341,7 +341,7 @@ let libro = [
         ubicacion: "Panamericana",
         fecha_publicacion: "2002",
         editorial: "Seix Barral",
-        paginas: "136",
+        paginas: 136,
         dimensiones: {
             alto: "28 cm",
             ancho: "21 cm",
@@ -362,8 +362,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "25 de junio de 1947",
-        editorial: "Debolsillo",
-        paginas: "384",
+        editorial: "Seix Barral",
+        paginas: 384,
         dimensiones: {
             alto: "19.4 cm",
             ancho: "12.6 cm",
@@ -384,8 +384,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "1981",
-        editorial: " La Oveja Negra",
-        paginas: "144",
+        editorial: "Seix Barral",
+        paginas: 144,
         dimensiones: {
             alto: "19 cm",
             ancho: "12.5 cm",
@@ -406,8 +406,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "05/07/2023",
-        editorial: "Crossbooks",
-        paginas: "608",
+        editorial: "Seix Barral",
+        paginas: 608,
         dimensiones: {
             alto: "22.5 cm",
             ancho: "14.5 cm",
@@ -428,8 +428,8 @@ let libro = [
         estado: "Nuevo",
         ubicacion: "Panamericana",
         fecha_publicacion: "17 de abril de 2024",
-        editorial: "Planeta Colombia",
-        paginas: "614",
+        editorial: "Seix Barral",
+        paginas: 614,
         dimensiones: {
             alto: "22.5 cm",
             ancho: "14.5 cm",
@@ -508,7 +508,7 @@ msj += "2. Eliminar el último libro agregado\n"
 msj += "3. Mostrar lista de libros\n\n"
 msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 3"
  let codigo = parseInt(prompt(msj));
-switch (código) {
+switch (codigo) {
   case 1:
     agregarLibro();
     break;
@@ -516,11 +516,20 @@ switch (código) {
     eliminarUltimoLibro();
     break;
   case 3:
-    mostrarLibro();
+    mostrarLibros();
     break;
   default:
     document.write(" el código que ingresó no es válido" )
 }
+
+const ARRAY = libro.map ((libros) => {
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        editorial: libros.editorial,
+    }
+        
+})
 
 
 
