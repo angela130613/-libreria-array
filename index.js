@@ -599,7 +599,7 @@ let descuentoLibros = libro.map((libros) =>{
     };
 })
 
-let nuevoResumen = libro.map((libros) => {
+let nuevoResumen = libro.map((libros) =>  {
     return{
         ...libros,
         descuento: 20,
