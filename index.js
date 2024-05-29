@@ -501,6 +501,117 @@ function mostrarLibros() {
     }
 }
 
+
+const ARRAY = libro.map ((libros) => {
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        editorial: libros.editorial,
+    }
+        
+})
+
+const LISTACASTIGO1 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        genero: libros.genero,
+        ISBN: libros.ISBN,
+        idioma: libros.idioma,
+    }
+})
+
+const LISTACASTIGO2 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        formato: libros.formato,
+        descripcion: libros.descripcion,
+        idioma: libros.idioma,
+    }
+})
+
+const LISTACASTIGO3 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        precio: libros.precio,
+        ISBN: libros.ISBN,
+        idioma: libros.idioma,
+    }
+})
+
+const LISTACASTIGO4 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        formato: libros.formato,
+        fechaPublicacion: libros.fechaPublicacion,
+        autor: libros.autor
+    }
+})
+
+const LISTACASTIGO5 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        genero: libros.genero,
+        autor: libros.autor,
+        idioma: libros.idioma,
+    }
+})
+
+const LISTACASTIGO6 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        ubicacion: libros.ubicacion,
+        estado: libros.estado,
+        formato: libros.formato,
+    }
+})
+
+const LISTACASTIGO8 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        fechaPublicacion: libros.fechaPublicacion,
+        dimensiones: libros.dimensiones,
+        formato: libros.formato,
+    }
+})
+
+const LISTACASTIGO9 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        genero: libros.genero,
+        dimensiones: libros.ISBN,
+        estado: libros.estado,
+    }
+})
+
+const LISTACASTIGO10 = libro.map((libros) => {
+    return{
+        titulo: libros.titulo,
+        genero: libros.genero,
+        genero: libros.genero,
+        idioma: libros.idioma,
+    }
+})
+
+let descuentoLibros = libro.map((libros) =>{
+    return{
+        ...libros,
+        descuento: 20,
+    };
+})
+
+let nuevoResumen = libro.map((libros) => {
+    return{
+        ...libros,
+        descuento: 20,
+        titulo: libros.titulo,
+        autor: libros.autor,
+        editorial: libros.editorial,
+        precio: libros.precio
+        
+    }
+})
+
+
 let msj
 msj = "opciones de edición para los libros\n\n";
 msj += "1. Agregar libro\n";
@@ -522,14 +633,6 @@ switch (codigo) {
     document.write(" el código que ingresó no es válido" )
 }
 
-const ARRAY = libro.map ((libros) => {
-    return {
-        titulo: libros.titulo,
-        autor: libros.autor,
-        editorial: libros.editorial,
-    }
-        
-})
 
 
 
