@@ -621,25 +621,68 @@ let nuevoResumen = libro.map((libros) =>  {
 })
 
 
+const librosCaros = bookCart.filter((libros) => {
+    return libro.precio > 10000;
+}
+ 
+)
+
+const libroResumen = libro
+.sort (( a, b) => b.paginas - a.paginas)
+.map((libros) =>{
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        editorial: libros.editorial,
+        paginas: libros.paginas
+    }
+})
+
+
 let msj
 msj = "opciones de edición para los libros\n\n";
 msj += "1. Agregar libro\n";
 msj += "2. Eliminar el último libro agregado\n"
-msj += "3. Mostrar lista de libros\n\n"
-msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 3"
- let codigo = parseInt(prompt(msj));
+msj += "3. Mostrar lista de libros\n"
+msj += "4. Resumen \n"
+msj += "5. castigo \n"
+msj += "6. descuento \n"
+msj += "7 filter \n"
+msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 5"
+let codigo = parseInt(prompt(msj));
 switch (codigo) {
-  case 1:
-    agregarLibro();
+    case 1:
+        agregarLibro();
+        break;
+    case 2:
+        eliminarUltimoLibro();
+        break;
+    case 3:
+        mostrarLibros();
+        break;
+    case 4:
+        console.table(NUEVAARRAY);
+        break;
+    case 5:
+        console.table(LISTACASTIGO1);
+        console.table(LISTACASTIGO2); 
+        console.table(LISTACASTIGO3);
+        console.table( LISTACASTIGO4); 
+        console.table(LISTACASTIGO6); 
+        console.table(LISTACASTIGO8);
+        console.table(LISTACASTIGO9); 
+        console.table(LISTACASTIGO10);
+        break;
+    case 6:
+        console.log(descuentoLibros);
+        break;
+    case 7:
+        console.log(librosCaros);
     break;
-  case 2:
-    eliminarUltimoLibro();
-    break;
-  case 3:
-    mostrarLibros();
-    break;
-  default:
-    document.write(" el código que ingresó no es válido" )
+    case 8:
+        console.log(libroResumen);
+    default:
+        document.write(" el código que ingresó no es válido")
 }
 
 
