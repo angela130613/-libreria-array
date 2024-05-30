@@ -621,8 +621,8 @@ let nuevoResumen = libro.map((libros) =>  {
 })
 
 
-const librosCaros = bookCart.filter((libros) => {
-    return libro.precio > 10000;
+const librosCaros = libro.filter((libros) => {
+    return libros.precio > 10000;
 }
  
 )
@@ -638,6 +638,7 @@ const libroResumen = libro
     }
 })
 
+const ordenlibros = libro.sort (( a, b) => b.paginas - a.paginas)
 
 let msj
 msj = "opciones de edición para los libros\n\n";
@@ -647,8 +648,10 @@ msj += "3. Mostrar lista de libros\n"
 msj += "4. Resumen \n"
 msj += "5. castigo \n"
 msj += "6. descuento \n"
-msj += "7 filter \n"
-msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 5"
+msj += "7. filter \n"
+msj += "8. resumen ordenado \n"
+msj += "9. ordenado por paginas"
+msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 9"
 let codigo = parseInt(prompt(msj));
 switch (codigo) {
     case 1:
@@ -681,8 +684,12 @@ switch (codigo) {
     break;
     case 8:
         console.log(libroResumen);
+    break;
+    case 9:
+        console.log(ordenlibros);
+        break;
     default:
-        document.write(" el código que ingresó no es válido")
+        console.log();(" el código que ingresó no es válido")
 }
 
 
