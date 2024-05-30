@@ -734,7 +734,7 @@ switch (codigo) {
         console.table(LISTACASTIGO10);
         break;
     case 6:
-        console.log(descuentoLibros);
+        console.table(descuentoLibros);
         break;
     case 7:
         console.log(librosCaros);
