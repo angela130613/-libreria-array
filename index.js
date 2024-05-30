@@ -464,15 +464,17 @@ function agregarLibroUsuario() {
     libro.peso = prompt("Ingresa el peso del libro:");
 
     libro.push(libros);
+    console.log(libro);
 }
 
 function eliminarUltimoLibro() {
-    if(libros.length > 0) {
-        libros.pop();
+    if(libro.length > 0) {
+        libro.pop();
         console.log("Último libro eliminado exitosamente.");
     } else {
         console.log("No hay libros en la lista para eliminar.");
     }
+    console.log(libro);
 }
 
 function mostrarLibros() {
@@ -622,7 +624,7 @@ let nuevoResumen = libro.map((libros) =>  {
 
 
 const librosCaros = libro.filter((libros) => {
-    return libros.precio > 10000;
+    return libros.precio > 65000;
 }
  
 )
@@ -644,6 +646,7 @@ const libroCaro = libro
 .filter((libros) => {
     return libros.precio > 10000;
 })
+.sort (( a, b) => b.precio - a.precio)
 .map((libros) =>{
     return {
         titulo: libros.titulo,
@@ -655,7 +658,7 @@ const libroCaro = libro
 
 const libropaginas = libro
 .filter((libros) => {
-    return libros.paginas < 100;
+    return libros.paginas < 200;
 })
 .map((libros) =>{
     return {
@@ -702,8 +705,8 @@ msj += "7. filter \n"
 msj += "8. resumen ordenado \n"
 msj += "9. ordenado por paginas\n"
 msj += "10. resumen ordenado por mas caro \n"
-msj += "11. resumen ordenado por paginas menores a 100 \n"
-msj += "12. resumen ordenado por mas caro de menor a mayor \n"
+msj += "11. resumen ordenado por paginas menores a 200 \n"
+msj += "12. resumen ordenado por mas caro de mayor a menor \n"
 msj += "13. resumen ordenado por paginas de menor a mayor \n"
 msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 12"
 let codigo = parseInt(prompt(msj));
@@ -718,7 +721,7 @@ switch (codigo) {
         mostrarLibros();
         break;
     case 4:
-        console.table(NUEVAARRAY);
+        console.table(ARRAY);
         break;
     case 5:
         console.table(LISTACASTIGO1);
@@ -737,7 +740,7 @@ switch (codigo) {
         console.log(librosCaros);
     break;
     case 8:
-        console.log(libroResumen);
+        console.table(libroResumen);
     break;
     case 9:
         console.log(ordenlibros);
