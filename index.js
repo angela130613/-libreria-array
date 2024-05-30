@@ -640,6 +640,56 @@ const libroResumen = libro
 
 const ordenlibros = libro.sort (( a, b) => b.paginas - a.paginas)
 
+const libroCaro = libro
+.filter((libros) => {
+    return libros.precio > 10000;
+})
+.map((libros) =>{
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        precio: libros.precio,
+
+    }
+})
+
+const libropaginas = libro
+.filter((libros) => {
+    return libros.paginas < 100;
+})
+.map((libros) =>{
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        editorial: libros.editorial,
+        paginas: libros.paginas,
+    }
+})
+
+const libroResumenCaro = libro
+.filter((libros) => {
+    return libros.precio > 9000;
+})
+.sort((a, b) => b.precio - a.precio) 
+.map((libros) =>{
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        precio: libros.precio,
+    }
+})
+
+const libroResumenPaginas = libro
+.sort ((a, b) => b.paginas - a.paginas)
+.map((libros) =>{
+    return {
+        titulo: libros.titulo,
+        autor: libros.autor,
+        editorial: libros.editorial,
+        paginas: libros.paginas
+    }
+})
+
 let msj
 msj = "opciones de edición para los libros\n\n";
 msj += "1. Agregar libro\n";
@@ -650,8 +700,12 @@ msj += "5. castigo \n"
 msj += "6. descuento \n"
 msj += "7. filter \n"
 msj += "8. resumen ordenado \n"
-msj += "9. ordenado por paginas"
-msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 9"
+msj += "9. ordenado por paginas\n"
+msj += "10. resumen ordenado por mas caro \n"
+msj += "11. resumen ordenado por paginas menores a 100 \n"
+msj += "12. resumen ordenado por mas caro de menor a mayor \n"
+msj += "13. resumen ordenado por paginas de menor a mayor \n"
+msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 12"
 let codigo = parseInt(prompt(msj));
 switch (codigo) {
     case 1:
@@ -688,6 +742,17 @@ switch (codigo) {
     case 9:
         console.log(ordenlibros);
         break;
+    case 10:
+        console.table(libroCaro);
+        break;
+    case 11:
+        console.table(libropaginas);
+        break;
+     case 12:
+         console.table(libroResumenCaro);
+        break;
+    case 13:
+        console.table(libroResumenPaginas)
     default:
         console.log();(" el código que ingresó no es válido")
 }
