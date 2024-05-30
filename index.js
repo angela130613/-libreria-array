@@ -464,17 +464,17 @@ function agregarLibroUsuario() {
     libro.peso = prompt("Ingresa el peso del libro:");
 
     libro.push(libros);
-    console.log(libro);
+    console.table(libro);
 }
 
 function eliminarUltimoLibro() {
     if(libro.length > 0) {
         libro.pop();
-        console.log("Último libro eliminado exitosamente.");
+        console.table("Último libro eliminado exitosamente.");
     } else {
-        console.log("No hay libros en la lista para eliminar.");
+        console.table("No hay libros en la lista para eliminar.");
     }
-    console.log(libro);
+    console.table(libro);
 }
 
 function mostrarLibros() {
@@ -757,7 +757,7 @@ switch (codigo) {
     case 13:
         console.table(libroResumenPaginas)
     default:
-        console.log();(" el código que ingresó no es válido")
+        console.table();(" el código que ingresó no es válido")
 }
 
 
