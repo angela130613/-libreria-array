@@ -709,7 +709,7 @@ msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 12
 let codigo = parseInt(prompt(msj));
 switch (codigo) {
     case 1:
-        agregarLibro();
+        agregarLibroUsuario();
         break;
     case 2:
         eliminarUltimoLibro();
