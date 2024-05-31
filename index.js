@@ -693,75 +693,236 @@ const libroResumenPaginas = libro
     }
 })
 
-let msj
+const HallarNombre = libro.find((libros) => {
+    return libros.titulo === "Still with you";
+})
+
+const HallarAutor = libro.find((libros) => {
+    return libros.autor === "Mercedes Ron";
+})
+
+const HallarFecha = libro.find((libros) => {
+    return libros.fecha_publicacion === "2002";
+})
+
+const HallarGenero = libro.find((libros) => {
+    return libros.genero === "Ficcion";
+})
+
+const HallarIdioma = libro.find((libros) => {
+    return libros.idioma === "Español España";
+})
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+const HallarPrecio = libro.find((libros) => {
+    return libros.precio === 79000;
+})
+
+const HallarISBN = libro.find((libros) => {
+    return libros.isbn === "9788490438664";
+})
+
+const HallarDescripcion = libro.find((libros) => {
+    return libros.descripcion === "El libro comienza donde termina el anterior: Emily cautiva en el palacio de Stefan Denavritz, su antiguo novio y nuevo monarca de Mishnock, y con un plan para recuperar su libertad. Sin embargo, el destino tiene otros planes para ella, y la convierte en una pieza importante para los acuerdos de paz entre naciones y el motivo que usará Magnus Lacrontte, su antiguo enemigo, para manipular al rey de Mishnock. Lo que no saben ni Emily ni Magnus es que el juego en el que se encuentran involucrados, cada cual por razones diferentes, los llevará a adentrarse en un descubrimiento sexual muy poderoso con resultados sorprendentes para ambos.";
+})
+
+const HallarEstado = libro.find((libros) => {
+    return libros.estado === "Nuevo";
+})
+
+const HallarUbicacion = libro.find((libros) => {
+    return libros.ubicacion === "Panamericana";
+})
+
+const HallarEditorial = libro.find((libros) => {
+    return libros.editorial === "Crossbooks";
+})
+
+const HallarPaginas = libro.find((libros) => {
+    return libros.paginas === 448;
+})
+
+const HallarDimensiones = libro.find((libros) => {
+    return libros.dimensiones ===  "23 cm", "15 cm", "2 cm";
+})
+
+const HallarPeso = libro.find((libros) => {
+    return libros.peso === "384 gr";
+})
+
+const HallarIdioma2 = libro.find((libros) => {
+    return libros.idioma === "Castellano";
+})
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+let msj,  OpcionMenu
+
 msj = "opciones de edición para los libros\n\n";
+
 msj += "1. Agregar libro\n";
+
 msj += "2. Eliminar el último libro agregado\n"
+
 msj += "3. Mostrar lista de libros\n"
+
 msj += "4. Resumen \n"
+
 msj += "5. 10 libros extra \n"
+
 msj += "6. descuento \n"
+
 msj += "7. filter \n"
+
 msj += "8. resumen ordenado \n"
+
 msj += "9. ordenado por paginas\n"
+
 msj += "10. resumen ordenado por mas caro \n"
+
 msj += "11. resumen ordenado por paginas menores a 200 \n"
+
 msj += "12. resumen ordenado por mas caro de mayor a menor \n"
+
 msj += "13. resumen ordenado por paginas de menor a mayor \n"
-msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 12"
+
+msj += "14. Las funcionalidades de este segmento \n"
+
+msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 14"
+
 let codigo = parseInt(prompt(msj));
+
 switch (codigo) {
+
     case 1:
         agregarLibroUsuario();
         break;
+
     case 2:
         eliminarUltimoLibro();
         break;
+
     case 3:
         mostrarLibros();
         break;
+
     case 4:
         console.table(ARRAY);
         break;
+
     case 5:
         console.table(LISTACASTIGO1);
-        console.table(LISTACASTIGO2); 
+
+        console.table(LISTACASTIGO2);
+
         console.table(LISTACASTIGO3);
+
         console.table( LISTACASTIGO4); 
+
         console.table(LISTACASTIGO6); 
+
         console.table(LISTACASTIGO8);
+
         console.table(LISTACASTIGO9); 
+
         console.table(LISTACASTIGO10);
+
         break;
+
     case 6:
         console.table(descuentoLibros);
         break;
+
     case 7:
         console.log(librosCaros);
     break;
+
     case 8:
         console.table(libroResumen);
     break;
+
     case 9:
         console.log(ordenlibros);
         break;
+
     case 10:
         console.table(libroCaro);
         break;
+
     case 11:
         console.table(libropaginas);
         break;
+
      case 12:
          console.table(libroResumenCaro);
         break;
+
     case 13:
         console.table(libroResumenPaginas)
-    default:
-        console.table();(" el código que ingresó no es válido")
-}
+        break;
 
+    case 14: 
+        OpcionMenu = " 1. Hallar libro por nombre \n"
 
+        OpcionMenu += " 2. Buscar un objeto del array por autor. \n"
 
+        OpcionMenu += " 3. Hallar libro por la fecha de publicacion \n"
 
+        OpcionMenu += " 4. Hallar libro por su genero  \n"
 
+        OpcionMenu += " 5. Hallar libro por idioma \n"
+
+        OpcionMenu += " 6. Hallar libro por 10 iteraciones diferentes  \n"
+
+        OpcionMenu += "Puedes escoger una de las siguientes opciones \n"
+
+        let opcion = parseInt(prompt(OpcionMenu))
+
+        switch (opcion){
+            case 1:
+                console.log(HallarNombre); 
+            break;
+
+            case 2:
+                console.log(HallarAutor); 
+            break;
+
+            case 3: 
+                console.log(HallarFecha);
+            break;
+
+            case 4: 
+                console.log(HallarGenero);
+            break;
+
+            case 5: 
+                console.log(HallarIdioma);
+            break;
+
+            case 6: 
+            console.log(HallarDescripcion);
+
+            console.log(HallarDimensiones);
+
+            console.log(HallarEditorial);
+
+            console.log(HallarEstado);
+
+            console.log(HallarISBN);
+
+            console.log(HallarIdioma2);
+
+            console.log(HallarPaginas);
+
+            console.log(HallarUbicacion);
+
+            console.log(HallarPeso);
+
+            console.log(HallarPrecio);
+            break;
+            default:
+                console.log(" la opcion que ingresó no es válida")
+        }
+
+    }
 
