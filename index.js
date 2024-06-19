@@ -440,10 +440,10 @@ let libro = [
     
 ]
 
-function agregarLibroUsuario() {
+ /* 1 */ function agregarLibroUsuario() {
     let libros = {};
 
-    libro.titulo = prompt("Ingresa el título del libro:");
+    libro.titulo = prompt("Ingresar un nuevo libro:");
     libro.autor = prompt("Ingresa el autor del libro:");
     libro.genero = prompt("Ingresa el género del libro:");
     libro.idioma = prompt("Ingresa el idioma del libro:");
@@ -467,7 +467,7 @@ function agregarLibroUsuario() {
     console.table(libro);
 }
 
-function eliminarUltimoLibro() {
+/* 2 */ function eliminarUltimoLibro() {
     if(libro.length > 0) {
         libro.pop();
         console.table("Último libro eliminado exitosamente.");
@@ -477,7 +477,7 @@ function eliminarUltimoLibro() {
     console.table(libro);
 }
 
-function mostrarLibros() {
+/* 3 */ function mostrarLibros() {
     if(libro.length > 0) {
         for(let i = 0; i < libro.length; i++) {
             console.log(`Libro ${i+1}:`);
@@ -504,16 +504,17 @@ function mostrarLibros() {
 }
 
 
-const ARRAY = libro.map ((libros) => {
+/* 4 */ const ARRAY = libro.map ((libros) => {
     return {
         titulo: libros.titulo,
         autor: libros.autor,
         editorial: libros.editorial,
+        precio: libros.precio
     }
         
 })
 
-const LISTACASTIGO1 = libro.map((libros) => {
+/* 5.1 */ const LISTACASTIGO1 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         genero: libros.genero,
@@ -522,7 +523,7 @@ const LISTACASTIGO1 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO2 = libro.map((libros) => {
+/* 5.2 */ const LISTACASTIGO2 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         formato: libros.formato,
@@ -531,7 +532,7 @@ const LISTACASTIGO2 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO3 = libro.map((libros) => {
+/* 5.3 */ const LISTACASTIGO3 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         precio: libros.precio,
@@ -540,7 +541,7 @@ const LISTACASTIGO3 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO4 = libro.map((libros) => {
+/* 5.4 */ const LISTACASTIGO4 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         formato: libros.formato,
@@ -549,7 +550,7 @@ const LISTACASTIGO4 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO5 = libro.map((libros) => {
+/* 5.5 */ const LISTACASTIGO5 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         genero: libros.genero,
@@ -558,7 +559,7 @@ const LISTACASTIGO5 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO6 = libro.map((libros) => {
+/* 5.6 */ const LISTACASTIGO6 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         ubicacion: libros.ubicacion,
@@ -567,7 +568,7 @@ const LISTACASTIGO6 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO8 = libro.map((libros) => {
+/* 5.7 */ const LISTACASTIGO8 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         fechaPublicacion: libros.fechaPublicacion,
@@ -576,7 +577,7 @@ const LISTACASTIGO8 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO7 = libro.map((libros) =>  {
+/* 5.8 */ const LISTACASTIGO7 = libro.map((libros) =>  {
     return{
         titulo: libros.titulo,
         precio: libros.precio,
@@ -585,7 +586,7 @@ const LISTACASTIGO7 = libro.map((libros) =>  {
     }
 })
 
-const LISTACASTIGO9 = libro.map((libros) => {
+/* 5.9 */ const LISTACASTIGO9 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         genero: libros.genero,
@@ -594,7 +595,7 @@ const LISTACASTIGO9 = libro.map((libros) => {
     }
 })
 
-const LISTACASTIGO10 = libro.map((libros) => {
+/* 5.10 */ const LISTACASTIGO10 = libro.map((libros) => {
     return{
         titulo: libros.titulo,
         genero: libros.genero,
@@ -760,13 +761,13 @@ let msj,  OpcionMenu
 
 msj = "opciones de edición para los libros\n\n";
 
-msj += "1. Agregar libro\n";
+msj += "1. Ingresar un nuevo libro\n";
 
 msj += "2. Eliminar el último libro agregado\n"
 
 msj += "3. Mostrar lista de libros\n"
 
-msj += "4. Resumen \n"
+msj += "4. Resumen de libros \n"
 
 msj += "5. 10 libros extra \n"
 
