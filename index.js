@@ -670,7 +670,7 @@ let libro = [
     }
 })
 
-const libroResumenCaro = libro
+/* 12 */ const libroResumenCaro = libro
 .filter((libros) => {
     return libros.precio > 9000;
 })
@@ -683,7 +683,7 @@ const libroResumenCaro = libro
     }
 })
 
-const libroResumenPaginas = libro
+/* 13 */const libroResumenPaginas = libro
 .sort ((a, b) => b.paginas - a.paginas)
 .map((libros) =>{
     return {
