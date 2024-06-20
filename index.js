@@ -604,14 +604,14 @@ let libro = [
     }
 })
 
-let descuentoLibros = libro.map((libros) =>{
+/* 6 */ let descuentoLibros = libro.map((libros) =>{
     return{
         ...libros,
         descuento: 20,
     };
 })
 
-let nuevoResumen = libro.map((libros) =>  {
+/* 6.1 */let nuevoResumen = libro.map((libros) =>  {
     return{
         ...libros,
         descuento: 20,
@@ -624,13 +624,13 @@ let nuevoResumen = libro.map((libros) =>  {
 })
 
 
-const librosCaros = libro.filter((libros) => {
+/* 7 */const librosCaros = libro.filter((libros) => {
     return libros.precio > 65000;
 }
  
 )
 
-const libroResumen = libro
+/* 8 */const libroResumen = libro
 .sort (( a, b) => b.paginas - a.paginas)
 .map((libros) =>{
     return {
@@ -641,9 +641,9 @@ const libroResumen = libro
     }
 })
 
-const ordenlibros = libro.sort (( a, b) => b.paginas - a.paginas)
+/* 9 */const ordenlibros = libro.sort (( a, b) => b.paginas - a.paginas)
 
-const libroCaro = libro
+/* 10 */const libroCaro = libro
 .filter((libros) => {
     return libros.precio > 10000;
 })
@@ -657,7 +657,7 @@ const libroCaro = libro
     }
 })
 
-const libropaginas = libro
+/* 11 */ const libropaginas = libro
 .filter((libros) => {
     return libros.paginas < 200;
 })
@@ -693,6 +693,8 @@ const libroResumenPaginas = libro
         paginas: libros.paginas
     }
 })
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 const HallarNombre = libro.find((libros) => {
     return libros.titulo === "Still with you";
@@ -771,15 +773,15 @@ msj += "4. Resumen de libros \n"
 
 msj += "5. 10 libros extra \n"
 
-msj += "6. descuento \n"
+msj += "6. descuento de libros del 20% \n"
 
-msj += "7. filter \n"
+msj += "7. libros mayores a $65.000 \n"
 
 msj += "8. resumen ordenado \n"
 
 msj += "9. ordenado por paginas\n"
 
-msj += "10. resumen ordenado por mas caro \n"
+msj += "10. resumen ordenado por libro mas caro \n"
 
 msj += "11. resumen ordenado por paginas menores a 200 \n"
 
@@ -787,7 +789,7 @@ msj += "12. resumen ordenado por mas caro de mayor a menor \n"
 
 msj += "13. resumen ordenado por paginas de menor a mayor \n"
 
-msj += "14. Las funcionalidades de este segmento \n"
+msj += "14. Menu funciones para hallar libro \n"
 
 msj += "ingrese el código de la acción que quiere realizar siendo entre 1 y 14"
 
